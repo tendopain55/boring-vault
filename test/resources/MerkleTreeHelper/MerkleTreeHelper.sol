@@ -6663,7 +6663,6 @@ contract MerkleTreeHelper is CommonBase, ChainValues, Test {
             string.concat("Convert USR to stUSR"),
             getAddress(sourceChain, "rawDataDecoderAndSanitizer")
         );
-        //leafs[leafIndex].argumentAddresses[0] = getAddress(sourceChain, "boringVault");
 
         unchecked {
             leafIndex++;
@@ -6676,7 +6675,6 @@ contract MerkleTreeHelper is CommonBase, ChainValues, Test {
             string.concat("Convert stUSR to USR"),
             getAddress(sourceChain, "rawDataDecoderAndSanitizer")
         );
-        //leafs[leafIndex].argumentAddresses[0] = getAddress(sourceChain, "boringVault");
     }
 
     function _addResolvWstUSRLeafs(ManageLeaf[] memory leafs) internal {
@@ -6717,7 +6715,6 @@ contract MerkleTreeHelper is CommonBase, ChainValues, Test {
             string.concat("Convert stUSR to wstUSR"),
             getAddress(sourceChain, "rawDataDecoderAndSanitizer")
         );
-        //leafs[leafIndex].argumentAddresses[0] = getAddress(sourceChain, "boringVault");
 
         unchecked {
             leafIndex++;
@@ -6730,7 +6727,6 @@ contract MerkleTreeHelper is CommonBase, ChainValues, Test {
             string.concat("Convert wstUSR to stUSR"),
             getAddress(sourceChain, "rawDataDecoderAndSanitizer")
         );
-        //leafs[leafIndex].argumentAddresses[0] = getAddress(sourceChain, "boringVault");
     }
 
     // ========================================= Sonic Gateway =========================================
